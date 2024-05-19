@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Airbnb</title>
+</head>
+<body>
+    <header class="">
+       <!-- ------ nav -------- -->
+        <div class="grid grid-cols-3 h-20 border-b-[3px]  items-center shadow-sm">
+            <img src="airbnb-logo.png" class="w-28 mx-7 cursor-pointer">
+         <div class="space-x-3 m-auto border rounded-full shadow-md">
+            <button class="border-r-2 text-sm font-medium px-4 ">Anywhere</button>
+            <button class="border-r-2 text-sm font-medium px-4">Any Week</button>
+            <button class="text-sm font-medium text-gray-500 px-4 ">Any guests</button>
+            <i class="fa-solid fa-magnifying-glass bg-red-500 text-white rounded-full p-2 hover:bg-black"></i>
+         </div>
+         <div class=" flex items-center  m-auto space-x-4 cursor-pointer">
+            <a href="#" class="pr-3">Airbnb your home</a> 
+            <i class="fa-solid fa-globe pr-4"></i>
+            <i class="fa-solid fa-bars pl-2"></i> 
+           <img src="yash.png" class=" flex w-8 rounded-full">
+          </div>
+
+        </div>
+
+
+       <!-- -------categoerybar-------- -->
+       <div class="flex ">
+        <div class="ml-9 mt-4 cursor-pointer items-center justify-evenly ">
+           <img src="type1.jpeg" class="w-[25px] ml-5">
+            <p class="text-[12px] text-gray-500 hover:text-black font-semibold">Amazing Pool</p>
+           </div>
+           <div class="ml-9 mt-4 cursor-pointer items-center">
+            <img src="type2.jpeg" class="w-[25px] ml-5 ">
+            <p class="text-[12px] ml-[21px] text-gray-500 hover:text-black font-semibold">play</p>
+           </div>
+           <div class="ml-9 mt-4    cursor-pointer items-center">
+            <img src="type3.jpeg" class="w-[25px] ml-7">
+            <p class="text-[12px] text-gray-500 hover:text-black font-semibold items-center">Historical homes</p>
+           </div>
+           <div class="ml-9 mt-4    cursor-pointer items-center">
+            <img src="type4.jpeg" class="w-[25px] ml-4">
+            <p class="text-[12px] text-gray-500 hover:text-black font-semibold">Countryside</p>
+           </div>
+           <div class="ml-9 mt-4    cursor-pointer items-center">
+            <img src="type5.jpeg" class="w-[25px] ml-5">
+            <p class="text-[12px] text-gray-500 hover:text-black font-semibold ml-2">Surfing</p>
+           </div>
+           <div class="ml-9 mt-4    cursor-pointer items-center">
+            <img src="type6.jpeg" class="w-[25px] ml-5">
+            <p class="text-[12px] text-gray-500 hover:text-black font-semibold ml-4">Farms</p>
+           </div>
+           <div class="ml-9 mt-4    cursor-pointer items-center">
+            <img src="type7.jpeg" class="w-[25px] ml-6">
+            <p class="text-[12px] text-gray-500 hover:text-black font-semibold">Amazing view</p>
+           </div>
+           <div class="ml-9 mt-4    cursor-pointer items-center">
+            <img src="type8.jpeg" class="w-[25px] ml-5">
+            <p class="text-[12px] text-gray-500 hover:text-black font-semibold">Amazing Pool</p>
+           </div>
+           <div class="ml-9 mt-4    cursor-pointer items-center">
+            <img src="type9 (1).jpeg" class="w-[25px] ml-5">
+            <p class="text-[12px] text-gray-500 hover:text-black font-semibold ml-2">Lakefront</p>
+           </div>
+           <div class="ml-9 mt-4    cursor-pointer items-center">
+            <img src="type10.jpeg" class="w-[25px] ml-5">
+            <p class="text-[12px] text-gray-500 hover:text-black font-semibold">Beachfront</p>
+           </div>
+           <div class="ml-9 mt-4    cursor-pointer items-center">
+            <img src="type11.jpeg" class="w-[25px] ml-5">
+            <p class="text-[12px] text-gray-500 hover:text-black font-semibold ml-4">OMG!</p>
+           </div>
+           <div class="ml-9 mt-4    cursor-pointer items-center">
+            <img src="type12.jpeg" class="w-[25px] ml-3">
+            <p class="text-[12px] text-gray-500 hover:text-black font-semibold ml-2">Golfing</p>
+           </div>   
+           <div class="m-auto ml-4  ">
+           <i class="fa-solid fa-greater-than text-white bg-black rounded-full p-2 w-8 hover:bg-red-500 shadow-sm"></i>
+            <a href="#" class="font-semibold  px-4 hover:border-[2px] border-black rounded-[8px] ml-3"><i class="fa-solid fa-sliders"></i> Filters</a> 
+           </div>
+           
+       </div>
+
+       <!-- ---------- pricing -------- --> 
+         <div class="flex justify-center">
+            <div class="flex justify-between">
+                <div class="flex justify-start p-10 space-x-5">
+                    <p class="font-bold text-[20px] hover:text-gray-500">Display total price</p>
+                    <p class="pt-1 text-[16px] text-gray-500 hover:text-black">Include all fees, before Taxes</p>
+                    <i class="fa-solid fa-toggle-off m-auto pl-32 h-[20px]  hover:text-gray-500 pt-1"></i>
+
+                </div>
+
+            </div>
+         
+         </div>
+
+    </header>
+     <!-- -------------------  main   ------------------ -->
+    <main>
+     <div class="grid grid-cols-4 mr-9">
+        <div class="flex flex-col ml-9 cursor-pointer hover:border-[0.5px] border-black p-2 rounded-[10px]  hover:bg-black hover:text-white">
+         <img src="img1.jpg " class="rounded-[10px] my-3">
+         <p class="font-bold">Langkawi, Malaysia <a href="#" class=" ml-[30px]"><i class="fa-solid fa-star"></i>4.63</a></p>
+         <span>531 Kilometres away</span>
+         <span >1-6 Jun</span>
+         <span class="font-bold">₹4,366 <a class="font-light hover:font-bold ">night</a></span>
+        </div>
+        <div class="flex flex-col ml-9 cursor-pointer hover:border-[0.5px] border-black p-2 rounded-[10px]  hover:bg-black hover:text-white">
+            <img src="img2.jpg" class="rounded-[10px] my-3">
+            <p class="font-bold">Calaca, Philippines <a href="#" class=" ml-[48px]"><i class="fa-solid fa-star"></i>4.63</a></p>
+            <span>531 Kilometres away</span>
+            <span >1-6 Jun</span>
+            <span class="font-bold">₹4,366 <a class="font-light hover:font-bold ">night</a></span>
+           </div>
+           <div class="flex flex-col ml-9 cursor-pointer hover:border-[0.5px] border-black p-2 rounded-[10px]  hover:bg-black hover:text-white">
+            <img src="img3.jpg" class="rounded-[10px] my-3">
+            <p class="font-bold"> Ponta Delgada, Portugal<a href="#" class=" ml-[5px]"><i class="fa-solid fa-star"></i>4.63</a></p>
+            <span>531 Kilometres away</span>
+            <span >1-6 Jun</span>
+            <span class="font-bold">₹4,366 <a class="font-light hover:font-bold ">night</a></span>
+           </div>
+           <div class="flex flex-col ml-9 cursor-pointer hover:border-[0.5px] border-black p-2 rounded-[10px]  hover:bg-black hover:text-white">
+            <img src="img4.jpg" class="rounded-[10px] my-3">
+            <p class="font-bold">Sainj, India <a href="#" class=" ml-[99px]"><i class="fa-solid fa-star"></i>4.63</a></p>
+            <span>531 Kilometres away</span>
+            <span >1-6 Jun</span>
+            <span class="font-bold">₹4,366 <a class="font-light hover:font-bold ">night</a></span>
+           </div>
+     </div>  
+     <div class="grid grid-cols-4 mr-9">
+        <div class="flex flex-col ml-9 cursor-pointer hover:border-[0.5px] border-black p-2 rounded-[10px]  hover:bg-black hover:text-white">
+         <img src="16.webp" class="rounded-[10px] my-3">
+         <p class="font-bold">Langkawi, Malaysia <a href="#" class=" ml-[30px]"><i class="fa-solid fa-star"></i>4.63</a></p>
+         <span>531 Kilometres away</span>
+         <span >1-6 Jun</span>
+         <span class="font-bold">₹4,366 <a class="font-light hover:font-bold ">night</a></span>
+        </div>
+        <div class="flex flex-col ml-9 cursor-pointer hover:border-[0.5px] border-black p-2 rounded-[10px]  hover:bg-black hover:text-white">
+            <img src="15.webp" class="rounded-[10px] my-3">
+            <p class="font-bold">Calaca, Philippines <a href="#" class=" ml-[48px]"><i class="fa-solid fa-star"></i>4.63</a></p>
+            <span>531 Kilometres away</span>
+            <span >1-6 Jun</span>
+            <span class="font-bold">₹4,366 <a class="font-light hover:font-bold ">night</a></span>
+           </div>
+           <div class="flex flex-col ml-9 cursor-pointer hover:border-[0.5px] border-black p-2 rounded-[10px]  hover:bg-black hover:text-white">
+            <img src="14.webp" class="rounded-[10px] my-3">
+            <p class="font-bold"> Yellareddypet,siricilla<a href="#" class=" ml-[30px]"><i class="fa-solid fa-star"></i>4.63</a></p>
+            <span>531 Kilometres away</span>
+            <span >1-6 Jun</span>
+            <span class="font-bold">₹4,366 <a class="font-light hover:font-bold ">night</a></span>
+           </div>
+           <div class="flex flex-col ml-9 cursor-pointer hover:border-[0.5px] border-black p-2 rounded-[10px]  hover:bg-black hover:text-white">
+            <img src="13.webp" class="rounded-[10px] my-3">
+            <p class="font-bold">Sainj, India <a href="#" class=" ml-[99px]"><i class="fa-solid fa-star"></i>4.63</a></p>
+            <span>531 Kilometres away</span>
+            <span >1-6 Jun</span>
+            <span class="font-bold">₹4,366 <a class="font-light hover:font-bold ">night</a></span>
+           </div>
+     </div>  
+     <div class="grid grid-cols-4 mr-9">
+        <div class="flex flex-col ml-9 cursor-pointer hover:border-[0.5px] border-black p-2 rounded-[10px]  hover:bg-black hover:text-white">
+         <img src="6.webp" class="rounded-[10px] my-3">
+         <p class="font-bold">Langkawi, Malaysia <a href="#" class=" ml-[30px]"><i class="fa-solid fa-star"></i>4.63</a></p>
+         <span>531 Kilometres away</span>
+         <span >1-6 Jun</span>
+         <span class="font-bold">₹4,366 <a class="font-light hover:font-bold ">night</a></span>
+        </div>
+        <div class="flex flex-col ml-9 cursor-pointer hover:border-[0.5px] border-black p-2 rounded-[10px]  hover:bg-black hover:text-white">
+            <img src="7.webp" class="rounded-[10px] my-3">
+            <p class="font-bold">Calaca, Philippines <a href="#" class=" ml-[48px]"><i class="fa-solid fa-star"></i>4.63</a></p>
+            <span>531 Kilometres away</span>
+            <span >1-6 Jun</span>
+            <span class="font-bold">₹4,366 <a class="font-light hover:font-bold ">night</a></span>
+           </div>
+           <div class="flex flex-col ml-9 cursor-pointer hover:border-[0.5px] border-black p-2 rounded-[10px]  hover:bg-black hover:text-white">
+            <img src="8.webp" class="rounded-[10px] my-3">
+            <p class="font-bold"> Kalpetta, India <a href="#" class=" ml-[75px]"><i class="fa-solid fa-star"></i>4.63</a></p>
+            <span>531 Kilometres away</span>
+            <span >1-6 Jun</span>
+            <span class="font-bold">₹4,366 <a class="font-light hover:font-bold ">night</a></span>
+           </div>
+           <div class="flex flex-col ml-9 cursor-pointer hover:border-[0.5px] border-black p-2 rounded-[10px]  hover:bg-black hover:text-white">
+            <img src="9.webp" class="rounded-[10px] my-3">
+            <p class="font-bold">Sainj, India <a href="#" class=" ml-[99px]"><i class="fa-solid fa-star"></i>4.63</a></p>
+            <span>531 Kilometres away</span>
+            <span >1-6 Jun</span>
+            <span class="font-bold">₹4,366 <a class="font-light hover:font-bold ">night</a></span>
+           </div>
+     </div>  
+
+     <div class="grid grid-cols-4 mr-9 mb-4">
+        <div class="flex flex-col ml-9 cursor-pointer hover:border-[0.5px] border-black p-2 rounded-[10px]  hover:bg-black hover:text-white">
+         <img src="10.webp" class="rounded-[10px] my-3">
+         <p class="font-bold">Langkawi, Malaysia <a href="#" class=" ml-[30px]"><i class="fa-solid fa-star"></i>4.63</a></p>
+         <span>531 Kilometres away</span>
+         <span >1-6 Jun</span>
+         <span class="font-bold">₹4,366 <a class="font-light hover:font-bold ">night</a></span>
+        </div>
+        <div class="flex flex-col ml-9 cursor-pointer hover:border-[0.5px] border-black p-2 rounded-[10px]  hover:bg-black hover:text-white">
+            <img src="11.webp" class="rounded-[10px] my-3">
+            <p class="font-bold">Calaca, Philippines <a href="#" class=" ml-[48px]"><i class="fa-solid fa-star"></i>4.63</a></p>
+            <span>531 Kilometres away</span>
+            <span >1-6 Jun</span>
+            <span class="font-bold">₹4,366 <a class="font-light hover:font-bold ">night</a></span>
+           </div>
+           <div class="flex flex-col ml-9 cursor-pointer hover:border-[0.5px] border-black p-2 rounded-[10px]  hover:bg-black hover:text-white">
+            <img src="12.webp" class="rounded-[10px] my-3">
+            <p class="font-bold"> Kalpetta, India <a href="#" class=" ml-[75px]"><i class="fa-solid fa-star"></i>4.63</a></p>
+            <span>531 Kilometres away</span>
+            <span >1-6 Jun</span>
+            <span class="font-bold">₹4,366 <a class="font-light hover:font-bold ">night</a></span>
+           </div>
+           <div class="flex flex-col ml-9 cursor-pointer hover:border-[0.5px] border-black p-2 rounded-[10px]  hover:bg-black hover:text-white">
+            <img src="13.webp" class="rounded-[10px] my-3">
+            <p class="font-bold">Sainj, India <a href="#" class=" ml-[99px]"><i class="fa-solid fa-star"></i>4.63</a></p>
+            <span>531 Kilometres away</span>
+            <span >1-6 Jun</span>
+            <span class="font-bold">₹4,366 <a class="font-light hover:font-bold ">night</a></span>
+           </div>
+     </div>  
+
+
+
+    
+
+
+    </main>
+                        <!-- ------ footer ------------ -->
+    <footer class="grid grid-cols-2 bottom-0 sticky bg-white h-10 items-center pl-9 border-t-4 hover:bg-black  hover:text-white" >
+    <div>
+        <ul class="flex space-x-3 text-[15px]">
+            <p><i class="fa-regular fa-copyright"></i>2024 Airbnb, Inc,</p>
+            <li class="hover:underline">
+                .  privacy
+            </li>
+            <li class="hover:underline">
+                . Terms
+            </li>
+            <li class="hover:underline">
+               . Sitemap
+            </li>
+            <li class="hover:underline">
+               . Company details
+            </li>
+        </ul>
+    </div>  
+    <div class="flex items-center text-[15px]">
+        <h1 class="flex space-x-1 items-center"><img src="yash.png" class="w-[30px] rounded-full"><i class="fa-regular fa-copyright justify-start"></i>G.YASHWANTH</h1>
+        <div class="ml-44 flex">
+            <p><i class="fa-solid fa-globe"></i> English(IN)</p>
+            <a href="#" class="ml-4"><i class="fa-solid fa-indian-rupee-sign"></i>INR</a>
+            <p class="ml-5">support & resources</p>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>
